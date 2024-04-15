@@ -11,6 +11,8 @@ Route::get('/', function () {
         'canRegister' => Route::has('register'),
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
+        'admin' => 10,
+        'teste' => 'MIGUEL GAY',
     ]);
 });
 

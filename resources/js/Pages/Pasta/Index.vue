@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click="abc">dsapdasjkpasa</button>
+        <button @click="abc">estamos no index da pasta</button>
         </div>
 </template>
 <script>

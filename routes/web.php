@@ -12,7 +12,13 @@ Route::get('/', function () {
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
         'admin' => 10,
-        'teste' => 'MIGUEL GAY',
+    ]);
+});
+
+
+Route::get('/rotanova', function () {
+    return Inertia::render('Pasta/Index', [
+        `fuck` => `miguel`
     ]);
 });
 
